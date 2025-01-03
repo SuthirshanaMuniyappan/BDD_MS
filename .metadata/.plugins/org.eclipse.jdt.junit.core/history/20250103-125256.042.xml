@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="MavenProject" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.TestRunnerClass" time="21.97">
+    <testsuite name="Login Page Functionality" time="21.97">
+      <testcase name="Validate the landing page title" classname="Login Page Functionality" time="21.97"/>
+    </testsuite>
+  </testsuite>
+</testrun>

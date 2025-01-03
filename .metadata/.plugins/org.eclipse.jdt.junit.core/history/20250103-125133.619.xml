@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="MavenProject" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="runner.TestRunnerClass" time="21.009">
+    <testsuite name="Login Page Functionality" time="21.009">
+      <testcase name="Validate the landing page title" classname="Login Page Functionality" time="21.009">
+        <failure>java.lang.AssertionError: expected:&lt;ExpleoSurance&gt; but was:&lt;[[EdgeDriver: MicrosoftEdge on windows (edd3891529faa578958b29e9a21b7bef)] -&gt; xpath: //p[@class='text-lg font-bold text-white']]&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:89)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:835)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:120)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at stepDef.steps.validate_the_dashboard_page_title(steps.java:143)&#13;
+	at ✽.Validate the dashboard page title(file:///C:/Users/smuniyappan2/eclipse-workspace/MavenProject/src/test/resources/LoginPage.feature:57)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
